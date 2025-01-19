@@ -65,7 +65,7 @@ class Fisica:
 if __name__ == '__main__':
     # Prática 2, configuração 1
     qua = Fisica('conf1/CH0.txt').lim_sup(3/(2*61)) # Vá alterando "conf1" pelos demais, para ver para as outras configurações. Aqui e na linha abaixo
-    cap = Fisica('conf1/CH3.txt', R1=1e4, C1=1e-7).lim_sup(3/(2*61))
+    cap = Fisica('conf1/CH1.txt', R1=1e4, C1=1e-7).lim_sup(3/(2*61))
 
     qua.bruto()
     cap.bruto('orange')
