@@ -159,3 +159,8 @@ class RLC(Fisica2):
                         lambda x: R/(2*np.pi*x*L - 1/(2*np.pi*x*C)))
         self.bodeR(lambda x: R/np.sqrt(R**2+(2*np.pi*x*L-1/(2*np.pi*x*C))**2),
                    lambda x: -(2*np.pi*x*L - 1/(2*np.pi*x*C))/R)
+
+#RC('C:/Users/Gabriel/Downloads/P3/RC/RigolDSrc', scale='log', R=2166, C=1e-7).tabela()
+#RL('C:/Users/Gabriel/Downloads/P3/RL/1/RL1mh', scale='log', R=99+21, L=1e-3).tabela()
+#RL('C:/Users/Gabriel/Downloads/P3/RL/5/RL5mh', scale='log', R=300+21*5, L=5e-3).tabela()
+#RLC('C:/Users/Gabriel/Downloads/P3/RLC/RLC', scale='log', R=300+21*5, L=5e-3, C=4e-7).tabela()
